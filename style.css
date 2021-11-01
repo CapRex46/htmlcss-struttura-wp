@@ -11,7 +11,7 @@ header{
     margin: 20px;
 }
 
-.container {
+.pagina {
     width: 1200px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
@@ -23,5 +23,27 @@ header{
     height: 600px;
     background-color: #E1D67A;
     padding: 50px;
+    margin: 20px;
+}
+
+.container{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(7, 93, 190);
+    padding: 50px;
+    margin: 20px;
+}
+
+.blubox{
+    width: 1200px;
+    background-color: #E579E6;
+    padding-left: 50px;
+    float: left;
+}
+
+footer{
+    width: 1200px;
+    background-color: purple;
+    height: 50px;
     margin: 20px;
 }
