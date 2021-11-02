@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.fl {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 header{
     width: 1200px;
     background-color: #E579E6;
@@ -11,7 +22,9 @@ header{
     margin: 20px;
 }
 
-.pagina {
+
+
+.container {
     width: 1200px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
@@ -26,19 +39,31 @@ header{
     margin: 20px;
 }
 
-.container{
+main{
     width: 1200px;
-    height: 700px;
     background-color: rgb(7, 93, 190);
-    padding: 50px;
+    padding: 30px 0;
     margin: 20px;
 }
 
-.blubox{
-    width: 1200px;
-    background-color: #E579E6;
-    padding-left: 50px;
-    float: left;
+
+
+.col-left{
+    width: 20%;
+}
+
+.col-center{
+    width: 60%;
+    padding: 0 20px;
+}
+
+.col-right{
+    width: 20%;
+}
+
+.col-content {
+    height: 500px;
+    background: #abcce4
 }
 
 footer{
