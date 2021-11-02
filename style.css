@@ -46,7 +46,10 @@ main{
     margin: 20px;
 }
 
-
+.col-top{
+    width: 100%;
+    padding-bottom: 20px;
+}
 
 .col-left{
     width: 20%;
